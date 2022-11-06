@@ -13,14 +13,11 @@ public class MessagesAdapterMongoImpl implements MessagesAdapter {
 
     private final MessagesMongoRepository messagesMongoRepository;
 
-    //private final MongoTemplate mongoTemplate;
-
     //constructor
     //get the autowired repository
     @Autowired
     public MessagesAdapterMongoImpl(MessagesMongoRepository messagesMongoRepository) {
         this.messagesMongoRepository = messagesMongoRepository;
-        //this.mongoTemplate = mongoTemplate;
     }
 
 
